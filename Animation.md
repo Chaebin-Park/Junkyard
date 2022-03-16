@@ -63,3 +63,15 @@
     }
 ```
 자바 코드긴 한데 코들린으로 걍 바꾸면 될듯. sdk version 23에서 한거라 지금이랑 안맞을수도 있음
+
+# 1초뒤 서서히 사라지는 애니메이션
+
+```kotlin
+        val alphaAnimation = AlphaAnimation(1.0f, 0.0f) // alpha값 1.0 ~ 0.0까지
+        alphaAnimation.apply {
+            startOffset = 1000  // 1초 대기
+            duration = 2000     // alpha값
+            fillAfter = true    // animation이 끝난 상태 유지
+        }
+        bind.view.startAnimation(alphaAnimation)
+```
