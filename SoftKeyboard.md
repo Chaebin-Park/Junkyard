@@ -25,3 +25,8 @@
     }
 ```
 - event?.unicodeChar : 입력받은 key의 unicode
+
+---
+
+# 버튼이 항상 SoftKeyboard 위에 있도록
+Button의 옵션에 `android:windowSoftInputMode="adjustResize"` 추가
