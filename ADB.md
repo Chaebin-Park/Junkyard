@@ -26,3 +26,9 @@ px = dp * dpi/160
 > dp = px * 0.75
 > 
 > px = dp * 1.33...
+
+## Devices
+|device|density(Physical/Override)(dpi)|size|
+|---|---|---|
+|**Galaxy S6**|640/-|1440x2560|
+|**Vuzix M4000**|160/212|854x480|
