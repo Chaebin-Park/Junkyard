@@ -91,10 +91,11 @@ fun Greeting(name: String) {
 }
 ```
 
-Text align
+Text align, modifier
 ```kotlin
 fun Greeting(name: String) {
   Text(
+    modifier = Modifier.width(300.dp),
     color = Color(0xffff9944),
     text = "Hello $name\nHello $name\nHello $name",
     fontSize = 30.sp,
