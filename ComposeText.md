@@ -1,5 +1,6 @@
 Default
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(text = "Hello $name")
 }
@@ -7,6 +8,7 @@ fun Greeting(name: String) {
 
 Color
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(color = Color.Red, text = "Hello $name")
 }
@@ -14,6 +16,7 @@ fun Greeting(name: String) {
 
 Color2
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(color = Color(0xffff9944), text = "Hello $name")
 }
@@ -21,6 +24,7 @@ fun Greeting(name: String) {
 
 Font size
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(color = Color(0xffff9944), text = "Hello $name", fontSize = 30.sp)
 }
@@ -28,6 +32,7 @@ fun Greeting(name: String) {
 
 Font weight
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(color = Color(0xffff9944), text = "Hello $name", fontSize = 30.sp, fontWeight = FontWeight.Bold)
 }
@@ -35,6 +40,7 @@ fun Greeting(name: String) {
 
 Font family
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(
     color = Color(0xffff9944),
@@ -48,6 +54,7 @@ fun Greeting(name: String) {
 
 Letter spacing
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(
     color = Color(0xffff9944),
@@ -62,6 +69,7 @@ fun Greeting(name: String) {
 
 Max lines
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(
     color = Color(0xffff9944),
@@ -77,6 +85,7 @@ fun Greeting(name: String) {
 
 Text decoration
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(
     color = Color(0xffff9944),
@@ -93,6 +102,7 @@ fun Greeting(name: String) {
 
 Text align, modifier
 ```kotlin
+@Composable
 fun Greeting(name: String) {
   Text(
     modifier = Modifier.width(300.dp),
